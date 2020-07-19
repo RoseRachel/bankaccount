@@ -3,6 +3,11 @@ print ("Hello, Dcoder!")
 class BankAcount:
   bank="KCB"
   
+print ("Hello, Dcoder!")
+#python 3.7.1
+class BankAcount:
+  bank="KCB"
+  
   def __init__(self, first_name, last_name):
     self.first_name=first_name
     self.last_name=last_name
@@ -37,8 +42,8 @@ class BankAcount:
   def display(self):
     print ("Your Net Balance = {}".format(self.balance))   
     
-acc1=BankAcount ("Betty", "Njambi")
-acc2=BankAcount ("Hellen", "Ivy")
+acc1=BankAcount ("Rose", "Rachel")
+acc2=BankAcount ("Mariam", "Athman")
 print()
 
 acc1.deposit(1000)
@@ -60,4 +65,3 @@ print ()
 
 acc1.display()
 acc2.display()
-
